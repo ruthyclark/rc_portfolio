@@ -13,7 +13,7 @@ class App extends React.Component {
   	constructor(props) {
 		super(props);
 		this.state = {
-		title: 'Ruth Clark',
+		title: 'Ruth Araceli Clark',
 		headerLinks: [
 			{title: 'Home', path: '/'},
 			{title: 'About', path: '/about'},
@@ -44,7 +44,7 @@ class App extends React.Component {
 			<Router>
 				<Container className='p-0' fluid={true} >
 					<Navbar className='border-bottom' bg='transparent' expand='lg'>
-						<NavbarBrand>Ruth Clark</NavbarBrand>
+						<NavbarBrand>Ruth Araceli Clark</NavbarBrand>
 						<Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
 						<Navbar.Collapse id='navbar-toggle'>
 							<Nav className='ml-auto'>
