@@ -3,8 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 
 import Card from './Card';
 import ruthgithub from '../assets/images/ruthgithub.jpg';
-import ruthfiller1 from '../assets/images/ruthfiller1.jpg';
-import ruthfiller2 from '../assets/images/ruthfiller2.jpg';
+import video from '../assets/images/videoplaceholder.jpg';
 
 
 class Carousel extends React.Component {
@@ -17,7 +16,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Bootcamp Portfolio Project',
                     subTitle: 'First Attempt at Website',
-                    imgSrc: ruthfiller1,
+                    imgSrc: video,
                     //link: 'https://devgrub.com',
                     selected: false
                 },
@@ -33,7 +32,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Bootcamp Backend Project',
                     subTitle: 'First Attempt at API requests',
-                    imgSrc: ruthfiller2,
+                    imgSrc: video,
                     //link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
