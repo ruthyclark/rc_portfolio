@@ -53,6 +53,7 @@ class Resume extends React.Component {
                         <p>Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'} </p>
                         <button
                             type='button'
+                            class="btn btn-dark"
                             disabled={pageNumber <= 1}
                             onClick={this.previousPage}
                         >
@@ -60,13 +61,14 @@ class Resume extends React.Component {
                         </button>
                         <button
                             type='button'
+                            class="btn btn-dark"
                             disabled={pageNumber >= numPages}
                             onClick={this.nextPage}
                         >
                             Next
                         </button>
                         <a href={resumePDF} download="RuthClark/'sAwesomeResume.pdf"> 
-                            <button>
+                            <button type='button' class="btn btn-dark">
                             Download
                             </button>
                         </a>

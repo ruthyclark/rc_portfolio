@@ -18,7 +18,7 @@ function Footer() {
                         </a>
                     </Col>
                     <Col className='p-0 d-flex justify-content-end' md={3}>
-                    Don't be Ruth-less
+                    &copy;ruthlessclark
                     </Col>
                 </Row>
             </Container>

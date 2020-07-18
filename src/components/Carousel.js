@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 
 import Card from './Card';
-import ruthgithub from '../assets/images/ruthgithub.jpg';
+import ruthgithub from '../assets/images/ruthgithub2.jpg';
 import video from '../assets/images/videoplaceholder.jpg';
 
 
