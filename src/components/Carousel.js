@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 
 import Card from './Card';
 import ruthgithub from '../assets/images/ruthgithub2.jpg';
-import video from '../assets/images/videoplaceholder.jpg';
+import video from '../assets/images/videoplaceholder.png';
 
 
 class Carousel extends React.Component {
@@ -14,10 +14,10 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Bootcamp Portfolio Project',
-                    subTitle: 'First Attempt at Website',
+                    title: 'Nucamp Bootstrap Project',
+                    subTitle: 'Video Coming Soon',
                     imgSrc: video,
-                    //link: 'https://devgrub.com',
+                    link: 'https://github.com/ruthyclark/nucamp-bootstrap',
                     selected: false
                 },
                 {
@@ -30,10 +30,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'Bootcamp Backend Project',
-                    subTitle: 'First Attempt at API requests',
+                    title: 'Nucamp React Project',
+                    subTitle: 'Video Coming Soon',
                     imgSrc: video,
-                    //link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/ruthyclark/nucamp-react',
                     selected: false
                 },
             ]

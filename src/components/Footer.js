@@ -13,7 +13,7 @@ function Footer() {
                         <a className= "btn btn-social-icon btn-github" href="https://github.com/ruthyclark"> 
                             <i className="fa fa-2x fa-github-square" aria-hidden="true"></i>
                         </a>
-                        <a className= "btn btn-social-icon btn-email" href="mailto:ruthclark2527@gmail.com?subject=I'm%20not%20Ruthless">
+                        <a className= "btn btn-social-icon btn-email" href="mailto:ruthclark2527@gmail.com?subject=Hire%20Ruth">
                             <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
                         </a>
                     </Col>

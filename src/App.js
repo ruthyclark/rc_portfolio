@@ -27,7 +27,7 @@ class App extends React.Component {
 			text: "Checkout my projects below"  
 		},
 		about: {
-			title: 'About Me'
+			title: 'About'
 		},
 		/*
 		contact: {
@@ -35,7 +35,7 @@ class App extends React.Component {
 		},
 		*/
 		resume: {
-			title: "My Resume"
+			title: "Resume"
 		}
 	}
   }
