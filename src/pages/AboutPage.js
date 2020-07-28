@@ -43,7 +43,7 @@ function AboutPage (props) {
             <p>Ruth Araceli Clark</p>
 
             <p>P.S. I am not really “ruthless” as my domain might suggest. Quite the opposite in fact as the name Ruth means 
-                “friend” and I do my best to live up to that 😊
+                “friend” and I do my best to live up to that :-)
             </p>
             </Content>
         </div>
