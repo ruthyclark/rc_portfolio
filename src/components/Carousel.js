@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import Card from './Card';
 import ruthgithub from '../assets/images/ruthgithub2.jpg';
 import video from '../assets/images/videoplaceholder.png';
-
+import demo from '../assets/images/demo.gif'
 
 class Carousel extends React.Component {
 
@@ -14,10 +14,10 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Nucamp Bootstrap Project',
-                    subTitle: 'Video Coming Soon',
-                    imgSrc: video,
-                    link: 'https://github.com/ruthyclark/nucamp-bootstrap',
+                    title: 'Whack A Mole',
+                    subTitle: 'Game built with JavaScript, HTML and CSS',
+                    imgSrc: demo,
+                    link: 'https://ruthyclark.github.io/whack-a-yoda/',
                     selected: false
                 },
                 {
