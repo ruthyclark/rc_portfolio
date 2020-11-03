@@ -1,10 +1,7 @@
 import React from 'react';
-
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-
 import resumePDF from '../assets/images/resume.pdf';
-
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
